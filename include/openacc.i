@@ -1,11 +1,6 @@
-/* -------------------------------------------------------------------------
- * openacc.i
- * ------------------------------------------------------------------------- */
-#ifdef SWIG_FORTRAN_CUDA
-#error "Can't use both CUDA *and* OpenACC compatibility layers."
-#endif
-#define SWIG_FORTRAN_OPENACC
-
+/*!
+ * \file openacc.i
+ */
 %include <fortranarray.swg>
 
 // Load openacc types

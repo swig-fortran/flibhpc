@@ -49,15 +49,6 @@ class device_ptr {
 
 };
 
-#if 0
-template<typename T>
-class vector {
-  /* To extract data:
-   * thrust::raw_pointer_cast($self->data())
-   */
-};
-#endif
-
 } // end namespace thrust
 
 
